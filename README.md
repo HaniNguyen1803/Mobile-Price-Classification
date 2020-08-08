@@ -11,3 +11,7 @@ The dataset can be found in [Kaggle](https://www.kaggle.com/iabhishekofficial/mo
 - Relationship between phone attributes and price
 - Attributes of high-priced vs. low-priced phones
 3. Model Training using TensorFlow
+
+# Findings
+1. RAM has the most effect on phone price. The higher the RAM, the higher the price
+2. Other attributes do not have significant effects on phone price. However, high-priced phones do have a slightly better battery ('battery_power', 'talk_time'), better camera ('pc', 'px_height','px_width'), and better memory ('int_memory','ram')
